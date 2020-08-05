@@ -1,0 +1,11 @@
+header {
+	width: 100%;
+	display: grid;
+	padding: 20px;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+
+.name {
+	font-size: 2rem;
+}
