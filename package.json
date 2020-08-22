@@ -10,11 +10,12 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-serve-build": "^0.2.1"
+    "react-serve-build": "^0.2.1",
+    "serve": "^11.3.2"
   },
   "scripts": {
-    "start": "react-serve-build",
-    "node server": "serve -s build",
+    "start": "serve -s build",
+    "react server": "react-serve-build",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
