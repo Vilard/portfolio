@@ -20,7 +20,7 @@ function App() {
         <div className='app-wrapper-content'> 
           <Route path="/portfolio" component={Portfolio}/>
           <Route path="/contacts" component={Contacts}/>
-
+          <Redirect from='/' to='portfolio'/>
         </div>
       </div>
     </BrowserRouter>
