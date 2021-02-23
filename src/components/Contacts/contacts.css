@@ -1,4 +1,9 @@
+.app-wrapper-content {
+	height: 81VH;
+	display: grid;
+}
 .contact {
+	align-self: center;
 	margin: 20px;
 }
 
