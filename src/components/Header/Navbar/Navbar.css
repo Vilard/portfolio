@@ -3,8 +3,16 @@ nav > a {
 	transition: .3s;
 	color: #FFFFFF;
 }
-
+.active { 
+	color: #76b900; 
+}
 nav > a:hover {
 	background-color: #76b900;
 	color: #000000;
+}
+
+@media screen and (max-width: 475px) {
+	nav > a { 
+		font-size: .8rem;
+	}
 }

@@ -18,3 +18,16 @@
 	align-items: center;
 	justify-items: center;
 }
+.contact img {
+	filter: 
+	sepia(20%) 
+	hue-rotate(245deg) 
+	brightness(105%) 
+	contrast(132%);
+}
+@media screen and (max-width: 475px) {
+	.row {
+		grid-template-columns: 1fr;
+		margin-bottom: 2rem;
+	}
+}

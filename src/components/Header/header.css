@@ -11,3 +11,8 @@ header {
 .name {
 	font-size: 2rem;
 }
+@media screen and (max-width: 780px) {
+  .name {
+  	font-size: 1.2rem;
+  }
+}
